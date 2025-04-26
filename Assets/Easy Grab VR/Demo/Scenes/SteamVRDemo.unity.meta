@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6951aaedd4f1c549a9efe4240ab8a15
+timeCreated: 1523118656
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116268
+  packageName: Easy Grab VR
+  packageVersion: 1.2
+  assetPath: Assets/Easy Grab VR/Demo/Scenes/SteamVRDemo.unity
+  uploadId: 276089

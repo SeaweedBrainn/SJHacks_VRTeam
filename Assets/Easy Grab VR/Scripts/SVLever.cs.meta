@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: fe8bb230f7ab7674a9a2c672a665dd92
+timeCreated: 1523725811
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116268
+  packageName: Easy Grab VR
+  packageVersion: 1.2
+  assetPath: Assets/Easy Grab VR/Scripts/SVLever.cs
+  uploadId: 276089

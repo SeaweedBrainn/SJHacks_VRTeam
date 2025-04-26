@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72bc1778b33f54b4199c1ee4bee442a2
+timeCreated: 1523118656
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116268
+  packageName: Easy Grab VR
+  packageVersion: 1.2
+  assetPath: Assets/Easy Grab VR/Demo/Scenes/OculusSDKMovementDemo.unity
+  uploadId: 276089

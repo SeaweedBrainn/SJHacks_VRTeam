@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a76105282726bb45aad77f7767f4cb6
+timeCreated: 1460995316
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 70881
+  packageName: Gaze UI for Canvas
+  packageVersion: 1.0
+  assetPath: Assets/Youe++/Gaze UI/Exemple/Prefabs/Eye Raycaster.prefab
+  uploadId: 326875

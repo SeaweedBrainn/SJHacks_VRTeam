@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e92b58025ab10524abd6f54d2e4263f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 70881
+  packageName: Gaze UI for Canvas
+  packageVersion: 1.0
+  assetPath: Assets/Youe++/Gaze UI/Exemple/Scripts/SmoothMouseLook.cs
+  uploadId: 326875

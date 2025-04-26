@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a43a712ac4ecaf743afc94a48dde1e9b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 70881
+  packageName: Gaze UI for Canvas
+  packageVersion: 1.0
+  assetPath: Assets/Youe++/Gaze UI/Exemple/Scripts/AnimatorUtility.cs
+  uploadId: 326875

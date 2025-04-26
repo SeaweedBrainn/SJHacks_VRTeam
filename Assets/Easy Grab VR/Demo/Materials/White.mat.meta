@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b87bb70bcfd093c4db7cae174538fecf
+timeCreated: 1523203845
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116268
+  packageName: Easy Grab VR
+  packageVersion: 1.2
+  assetPath: Assets/Easy Grab VR/Demo/Materials/White.mat
+  uploadId: 276089

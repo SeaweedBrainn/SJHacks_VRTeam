@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a63328bf7adc7ab47812a8a1bbb9e363
+timeCreated: 1523118193
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116268
+  packageName: Easy Grab VR
+  packageVersion: 1.2
+  assetPath: Assets/Easy Grab VR/Shaders/SVOutlineShader.shader
+  uploadId: 276089

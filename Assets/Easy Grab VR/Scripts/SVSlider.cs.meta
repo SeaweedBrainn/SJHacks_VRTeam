@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 34f675785f383554dbed56e7aa134d36
+timeCreated: 1523730706
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116268
+  packageName: Easy Grab VR
+  packageVersion: 1.2
+  assetPath: Assets/Easy Grab VR/Scripts/SVSlider.cs
+  uploadId: 276089
