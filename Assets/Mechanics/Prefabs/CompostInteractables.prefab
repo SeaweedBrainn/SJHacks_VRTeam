@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2734634312009765528}
   m_Layer: 0
   m_Name: Food_Burger
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 2175181427897515906}
   m_Layer: 0
   m_Name: Food_Chopped Tomato
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 4937908619640049930}
   m_Layer: 0
   m_Name: food_Avocado
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 2262224446784761572}
   m_Layer: 0
   m_Name: food_Banana
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1116,7 +1116,7 @@ GameObject:
   - component: {fileID: 1563598178059208710}
   m_Layer: 0
   m_Name: Food_Broccoli
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1433,7 +1433,7 @@ GameObject:
   - component: {fileID: 2181965234291189504}
   m_Layer: 0
   m_Name: Food_Apple_Chopped
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1708,7 +1708,7 @@ GameObject:
   - component: {fileID: 2626369507558223861}
   m_Layer: 0
   m_Name: food_Tangerine
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1983,7 +1983,7 @@ GameObject:
   - component: {fileID: 4543296218663846481}
   m_Layer: 0
   m_Name: Food_Cheese
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2258,7 +2258,7 @@ GameObject:
   - component: {fileID: 2615936257712630303}
   m_Layer: 0
   m_Name: food_Lemon
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2533,7 +2533,7 @@ GameObject:
   - component: {fileID: 9210737225791719693}
   m_Layer: 0
   m_Name: food_Carrot
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2808,7 +2808,7 @@ GameObject:
   - component: {fileID: 1893340772581086963}
   m_Layer: 0
   m_Name: food_Apple
-  m_TagString: Untagged
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
