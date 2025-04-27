@@ -3,8 +3,9 @@ using System.Collections.Generic;
 
 public class CountActiveObjects : MonoBehaviour
 {
-    public List<string> tagsToCount; // List of tags to track
+    public List<string> tagsToCount; 
     private Dictionary<string, int> activeObjectCounts = new Dictionary<string, int>();
+    private Dictionary<string, int> destroyedCounts = new Dictionary<string, int>(); // New: Track how many destroyed
     public int countToDelete = 3;
 
     void Start()
@@ -30,6 +31,7 @@ public class CountActiveObjects : MonoBehaviour
             }
 
             activeObjectCounts[tag] = count;
+            destroyedCounts[tag] = 0; // Initialize destroyed count
             Debug.Log($"Active objects with tag {tag}: {count}");
         }
     }
@@ -39,19 +41,24 @@ public class CountActiveObjects : MonoBehaviour
         if (activeObjectCounts.ContainsKey(tag))
         {
             activeObjectCounts[tag]--;
-            Debug.Log($"Decreased Active objects with tag {tag}: {activeObjectCounts[tag]}");
-            if (activeObjectCounts[tag] == (15 - countToDelete))
+            destroyedCounts[tag]++; // Count how many we've deactivated manually
+            Debug.Log($"Decreased Active objects with tag {tag}: {activeObjectCounts[tag]} (Destroyed {destroyedCounts[tag]})");
+
+            if (destroyedCounts[tag] >= countToDelete)
             {
-                Debug.Log($"Condition met for tag {tag}. Deactivating all objects with this tag.");
+                Debug.Log($"Destroyed {countToDelete} objects for tag {tag}. Deactivating all objects with this tag.");
 
                 GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
                 foreach (GameObject obj in objectsWithTag)
                 {
-                    if (obj.activeInHierarchy) // Optional: Only deactivate active ones
+                    if (obj.activeInHierarchy)
                     {
                         obj.SetActive(false);
                     }
                 }
+
+                // Optional: Reset counter if you want this to happen again later
+                destroyedCounts[tag] = 0;
             }
         }
     }
