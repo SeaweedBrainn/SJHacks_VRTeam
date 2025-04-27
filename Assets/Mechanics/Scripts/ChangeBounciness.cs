@@ -3,36 +3,26 @@ using System.Collections;
 
 public class ChangeBounciness : MonoBehaviour
 {
-    public float delay = 3.0f; // Delay in seconds before changing the bounciness
-    private Collider objectCollider; // The object's collider
-    private PhysicsMaterial originalMaterial; // Reference to the original PhysicMaterial
+    public GameObject oneObject;
+    private Collider objectCollider; 
+    private PhysicsMaterial originalMaterial; // (correct spelling: PhysicMaterial)
 
     void Start()
     {
-        // Get the collider component of the object
-        objectCollider = GetComponent<Collider>();
+        objectCollider = oneObject.GetComponent<Collider>();
 
-        // Check if the collider exists and store the original material
         if (objectCollider != null)
         {
-            originalMaterial = objectCollider.material;
-        }
-
-        // Start the coroutine to change bounciness after a delay
-        if (originalMaterial != null)
-        {
-            StartCoroutine(ChangeBouncinessAfterDelay());
+            // 🛑 NOT material
+            originalMaterial = objectCollider.sharedMaterial;
         }
     }
 
-    private IEnumerator ChangeBouncinessAfterDelay()
+    public void onButtonPress()
     {
-        // Wait for the specified delay
-        yield return new WaitForSeconds(delay);
-
-        // Apply the new material to the object's collider
-        objectCollider.material.bounciness = 0;
-
-        Debug.Log("Bounciness changed to 0.");
+        if (originalMaterial != null)
+        {
+            originalMaterial.bounciness = 0f;
+        }
     }
 }

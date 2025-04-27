@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 5459161165134024647}
   - component: {fileID: 4304429866530030105}
   - component: {fileID: 4482299559612823109}
-  - component: {fileID: 7818385276740582515}
   m_Layer: 0
   m_Name: Prop_TrashBag_02
   m_TagString: TrashBag
@@ -276,19 +275,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7818385276740582515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 592967296348348674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &1359882448162657868
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +289,6 @@ GameObject:
   - component: {fileID: 6488397870939964902}
   - component: {fileID: 881503268756751612}
   - component: {fileID: 8306416006918869730}
-  - component: {fileID: 6545077727118609841}
   m_Layer: 0
   m_Name: Prop_TrashBag_03
   m_TagString: TrashBag
@@ -565,19 +550,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6545077727118609841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1359882448162657868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &6573411808743680066
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,7 +564,6 @@ GameObject:
   - component: {fileID: 2349937056523833444}
   - component: {fileID: 8944910228447862931}
   - component: {fileID: 3388910741846590377}
-  - component: {fileID: 3251738610197756761}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (1)
   m_TagString: TrashBag
@@ -854,19 +825,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6139045221124263667, guid: 2c4cc365b444e354997a06a53af68b95, type: 3}
---- !u!114 &3251738610197756761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6573411808743680066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &7222892344232626451
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +839,6 @@ GameObject:
   - component: {fileID: 551965240586851430}
   - component: {fileID: 3483466965475049807}
   - component: {fileID: 8597931950425194214}
-  - component: {fileID: 8002742944360612668}
   m_Layer: 0
   m_Name: Prop_TrashBag_01
   m_TagString: TrashBag
@@ -1143,19 +1100,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8002742944360612668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7222892344232626451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &8187013372609931333
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1202933129126893577}
   - component: {fileID: 770709539176290772}
   - component: {fileID: 1071185135041082614}
-  - component: {fileID: 364386378266819665}
   m_Layer: 0
   m_Name: Bottle3
   m_TagString: RecyclableWaste
@@ -276,19 +275,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &364386378266819665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3448648758461287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &533221212767272469
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +289,6 @@ GameObject:
   - component: {fileID: 774345995580262167}
   - component: {fileID: 2694799706031019774}
   - component: {fileID: 6971414529581311467}
-  - component: {fileID: 6486709687133519975}
   m_Layer: 0
   m_Name: Bottle1Black
   m_TagString: RecyclableWaste
@@ -565,19 +550,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6486709687133519975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533221212767272469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &828739031362167213
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,7 +564,6 @@ GameObject:
   - component: {fileID: 8778584497375357829}
   - component: {fileID: 2385926330712644936}
   - component: {fileID: 5587141369982622382}
-  - component: {fileID: 8225319405191862299}
   m_Layer: 0
   m_Name: SodaCan
   m_TagString: RecyclableWaste
@@ -854,19 +825,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8225319405191862299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828739031362167213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &2279415241070049413
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +839,6 @@ GameObject:
   - component: {fileID: 1310253668251015133}
   - component: {fileID: 4447028550388500097}
   - component: {fileID: 6809457946986710558}
-  - component: {fileID: 3998034456557631379}
   m_Layer: 0
   m_Name: CannedFood_01
   m_TagString: RecyclableWaste
@@ -1143,19 +1100,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3520668679709327983, guid: 5cfb34e4d2a9de24584acb510151a41a, type: 3}
---- !u!114 &3998034456557631379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2279415241070049413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &2829355092982109724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,7 +1157,6 @@ GameObject:
   - component: {fileID: 4806742259487941141}
   - component: {fileID: 5480768613334718648}
   - component: {fileID: 266958009233203195}
-  - component: {fileID: 4708906761890950720}
   m_Layer: 0
   m_Name: CannedFood_02
   m_TagString: RecyclableWaste
@@ -1475,19 +1418,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4708906761890950720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3312092872032872382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &3872174213481099912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,7 +1432,6 @@ GameObject:
   - component: {fileID: 7383696217516009341}
   - component: {fileID: 1085462130793191537}
   - component: {fileID: 3786029878843798526}
-  - component: {fileID: 442154055499094884}
   m_Layer: 0
   m_Name: Bottle3 (1)
   m_TagString: RecyclableWaste
@@ -1764,19 +1693,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &442154055499094884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3872174213481099912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &4268120928507741558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,7 +1707,6 @@ GameObject:
   - component: {fileID: 8993008967728896948}
   - component: {fileID: 6936904777932962832}
   - component: {fileID: 8757964951449145734}
-  - component: {fileID: 7674593708776293399}
   m_Layer: 0
   m_Name: Bottle1
   m_TagString: RecyclableWaste
@@ -2053,19 +1968,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7674593708776293399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4268120928507741558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &4740243024036962273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,7 +1982,6 @@ GameObject:
   - component: {fileID: 2148258167244818746}
   - component: {fileID: 1502136106974909933}
   - component: {fileID: 4062395760809932036}
-  - component: {fileID: 8178753930682362900}
   m_Layer: 0
   m_Name: Bottle3Blue
   m_TagString: RecyclableWaste
@@ -2342,19 +2243,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8178753930682362900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4740243024036962273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &6026532803573221911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,7 +2257,6 @@ GameObject:
   - component: {fileID: 2192350300494150028}
   - component: {fileID: 2575546873697611815}
   - component: {fileID: 2728638685016702851}
-  - component: {fileID: 4034651361661521994}
   m_Layer: 0
   m_Name: MilkCartonRed
   m_TagString: RecyclableWaste
@@ -2631,19 +2518,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4034651361661521994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6026532803573221911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &6437794184627613918
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,7 +2532,6 @@ GameObject:
   - component: {fileID: 5762745170915565413}
   - component: {fileID: 5601825898273083141}
   - component: {fileID: 885675069488481299}
-  - component: {fileID: 8190517996755549011}
   m_Layer: 0
   m_Name: Bottle2Purple
   m_TagString: RecyclableWaste
@@ -2920,19 +2793,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8190517996755549011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6437794184627613918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &7097843138672878871
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,7 +2807,6 @@ GameObject:
   - component: {fileID: 6341077397960791110}
   - component: {fileID: 8655826617600271662}
   - component: {fileID: 7166731582875071595}
-  - component: {fileID: 2402695502624622759}
   m_Layer: 0
   m_Name: Bottle2
   m_TagString: RecyclableWaste
@@ -3209,19 +3068,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2402695502624622759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7097843138672878871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
 --- !u!1 &7449658939093584157
 GameObject:
   m_ObjectHideFlags: 0
@@ -3236,7 +3082,6 @@ GameObject:
   - component: {fileID: 7150669415503799604}
   - component: {fileID: 2389471815222818098}
   - component: {fileID: 4227532540595685142}
-  - component: {fileID: 4010305667718670190}
   m_Layer: 0
   m_Name: MilkCartonBlue
   m_TagString: RecyclableWaste
@@ -3498,16 +3343,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4010305667718670190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7449658939093584157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
