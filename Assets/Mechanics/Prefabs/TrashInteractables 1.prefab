@@ -49,9 +49,10 @@ GameObject:
   - component: {fileID: 4082243791597377390}
   - component: {fileID: 3561007817670228703}
   - component: {fileID: 4530693615043198595}
+  - component: {fileID: 680795328150192891}
   m_Layer: 0
   m_Name: FastCoffeeCupGreen
-  m_TagString: Untagged
+  m_TagString: Non-reyclables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,7 +132,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5165631215269606984}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -310,6 +311,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &680795328150192891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165631215269606984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &8046199205361112886
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,9 +338,10 @@ GameObject:
   - component: {fileID: 2364004024169430301}
   - component: {fileID: 5108936418644673418}
   - component: {fileID: 7515701502521664563}
+  - component: {fileID: 4729374389382920870}
   m_Layer: 0
   m_Name: FastFoodCupBlue
-  m_TagString: Untagged
+  m_TagString: Non-reyclables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -406,7 +421,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8046199205361112886}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -585,6 +600,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4729374389382920870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8046199205361112886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &8837094514356509390
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,9 +627,10 @@ GameObject:
   - component: {fileID: 3674834440829933699}
   - component: {fileID: 6481106583964396385}
   - component: {fileID: 3717568587910903529}
+  - component: {fileID: 9159536892109645378}
   m_Layer: 0
   m_Name: WaterBottle_01
-  m_TagString: Untagged
+  m_TagString: Non-reyclables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -681,7 +710,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8837094514356509390}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -860,6 +889,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &9159536892109645378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8837094514356509390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &9091051482809447344
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,9 +916,10 @@ GameObject:
   - component: {fileID: 1008691029518635678}
   - component: {fileID: 554698730901736548}
   - component: {fileID: 9040382955858807156}
+  - component: {fileID: 7644759501724279716}
   m_Layer: 0
   m_Name: FastCoffeeCupRed
-  m_TagString: Untagged
+  m_TagString: Non-reyclables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -956,7 +999,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9091051482809447344}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1135,3 +1178,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7644759501724279716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9091051482809447344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3

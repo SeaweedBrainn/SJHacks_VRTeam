@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3629917188722263236}
   - component: {fileID: 2069228058925561999}
   - component: {fileID: 2734634312009765528}
+  - component: {fileID: 3580003525654649921}
   m_Layer: 0
   m_Name: Food_Burger
   m_TagString: FoodWaste
@@ -260,7 +261,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295697215154953539}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -275,6 +276,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8944836183056611700, guid: 98542b411f0754645a461770ffc62b1c, type: 3}
+--- !u!114 &3580003525654649921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295697215154953539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &1156935826959846131
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +303,7 @@ GameObject:
   - component: {fileID: 5173803763084240586}
   - component: {fileID: 6382316572988777262}
   - component: {fileID: 2175181427897515906}
+  - component: {fileID: 4699328123511143156}
   m_Layer: 0
   m_Name: Food_Chopped Tomato
   m_TagString: FoodWaste
@@ -535,7 +550,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156935826959846131}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -550,6 +565,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3301885043010431249, guid: 59ec72c0f63004042b0ce461221b06ac, type: 3}
+--- !u!114 &4699328123511143156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156935826959846131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &1960476000690548445
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +592,7 @@ GameObject:
   - component: {fileID: 8853849805496953032}
   - component: {fileID: 8782053653634706676}
   - component: {fileID: 4937908619640049930}
+  - component: {fileID: 1532780715273308490}
   m_Layer: 0
   m_Name: food_Avocado
   m_TagString: FoodWaste
@@ -810,7 +839,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960476000690548445}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -825,6 +854,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4087547111937147307, guid: 5f1fa8749bb95b0499bc4f6f4e07fda7, type: 3}
+--- !u!114 &1532780715273308490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960476000690548445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &2054254031350394028
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +881,7 @@ GameObject:
   - component: {fileID: 5449176733279960440}
   - component: {fileID: 7436351974397588115}
   - component: {fileID: 2262224446784761572}
+  - component: {fileID: 2342836268714616463}
   m_Layer: 0
   m_Name: food_Banana
   m_TagString: FoodWaste
@@ -1085,7 +1128,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054254031350394028}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1100,6 +1143,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7293317215515873503, guid: 923e4f07679463b4081c1eed04ae6fa2, type: 3}
+--- !u!114 &2342836268714616463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054254031350394028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &3214758649770687596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1170,7 @@ GameObject:
   - component: {fileID: 2648291742987176446}
   - component: {fileID: 8398209974821669112}
   - component: {fileID: 1563598178059208710}
+  - component: {fileID: 5487686223044305925}
   m_Layer: 0
   m_Name: Food_Broccoli
   m_TagString: FoodWaste
@@ -1360,7 +1417,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3214758649770687596}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1375,6 +1432,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5644437864633722967, guid: 9e1f94b791e4c4147a96182275f39d5f, type: 3}
+--- !u!114 &5487686223044305925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214758649770687596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &3886648904721595620
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,6 +1501,7 @@ GameObject:
   - component: {fileID: 6959721329671326658}
   - component: {fileID: 6399843089521885918}
   - component: {fileID: 2181965234291189504}
+  - component: {fileID: 5171626167379187030}
   m_Layer: 0
   m_Name: Food_Apple_Chopped
   m_TagString: FoodWaste
@@ -1677,7 +1748,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4956541099945936822}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1692,6 +1763,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6355147836877512621, guid: 26b9e9ffc89b43e468c362d68b737ac5, type: 3}
+--- !u!114 &5171626167379187030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4956541099945936822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &5038118349905820997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,6 +1790,7 @@ GameObject:
   - component: {fileID: 2544974381278557143}
   - component: {fileID: 590948920451847782}
   - component: {fileID: 2626369507558223861}
+  - component: {fileID: 7565181423874088541}
   m_Layer: 0
   m_Name: food_Tangerine
   m_TagString: FoodWaste
@@ -1952,7 +2037,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5038118349905820997}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1967,6 +2052,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1964761566976901388, guid: ecc0649df0d08b048b8f95e3f932f10a, type: 3}
+--- !u!114 &7565181423874088541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5038118349905820997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &7020325188661737392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,6 +2079,7 @@ GameObject:
   - component: {fileID: 1574726180452346853}
   - component: {fileID: 924460277728986986}
   - component: {fileID: 4543296218663846481}
+  - component: {fileID: 398993884841800665}
   m_Layer: 0
   m_Name: Food_Cheese
   m_TagString: FoodWaste
@@ -2227,7 +2326,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7020325188661737392}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2242,6 +2341,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 484724026159080888, guid: c64d4d945dfd2b5408ed88902d87bace, type: 3}
+--- !u!114 &398993884841800665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7020325188661737392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &7171885361592021839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2256,6 +2368,7 @@ GameObject:
   - component: {fileID: 1603441678814048741}
   - component: {fileID: 8176731343591462511}
   - component: {fileID: 2615936257712630303}
+  - component: {fileID: 8445630981884370789}
   m_Layer: 0
   m_Name: food_Lemon
   m_TagString: FoodWaste
@@ -2502,7 +2615,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7171885361592021839}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2517,6 +2630,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1463948119043421729, guid: 331d32c5111f35c4e9d754aef99afa72, type: 3}
+--- !u!114 &8445630981884370789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171885361592021839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &8857310545493368164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2531,6 +2657,7 @@ GameObject:
   - component: {fileID: 5205381090619910323}
   - component: {fileID: 5010155568713432304}
   - component: {fileID: 9210737225791719693}
+  - component: {fileID: 4651528262087314511}
   m_Layer: 0
   m_Name: food_Carrot
   m_TagString: FoodWaste
@@ -2777,7 +2904,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8857310545493368164}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2792,6 +2919,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -524602686206754218, guid: cdd74c5fa1d9ead459d3d3906f9117f0, type: 3}
+--- !u!114 &4651528262087314511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857310545493368164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
 --- !u!1 &8979274252531447195
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,6 +2946,7 @@ GameObject:
   - component: {fileID: 5291689881610705176}
   - component: {fileID: 8939852008122746361}
   - component: {fileID: 1893340772581086963}
+  - component: {fileID: 3364527138733511576}
   m_Layer: 0
   m_Name: food_Apple
   m_TagString: FoodWaste
@@ -3052,7 +3193,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8979274252531447195}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e034486c6f0a3492eb9d349acf69f9cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3067,3 +3208,16 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4399071829469966413, guid: 6af98d18686a0af419b6f1ea92806ebb, type: 3}
+--- !u!114 &3364527138733511576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8979274252531447195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdbb83e4b1264f2288dad4b879190b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3

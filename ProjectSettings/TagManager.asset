@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Anchor
   - Mop
+  - FoodWaste
+  - RecyclableWaste
+  - Non-reyclables
+  - TrashBag
+  - Graffiti
   layers:
   - Default
   - TransparentFX
