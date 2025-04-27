@@ -5,6 +5,7 @@ public class CountActiveObjects : MonoBehaviour
 {
     public List<string> tagsToCount; // List of tags to track
     private Dictionary<string, int> activeObjectCounts = new Dictionary<string, int>();
+    public int countToDelete = 3;
 
     void Start()
     {
@@ -39,6 +40,19 @@ public class CountActiveObjects : MonoBehaviour
         {
             activeObjectCounts[tag]--;
             Debug.Log($"Decreased Active objects with tag {tag}: {activeObjectCounts[tag]}");
+            if (activeObjectCounts[tag] == (15 - countToDelete))
+            {
+                Debug.Log($"Condition met for tag {tag}. Deactivating all objects with this tag.");
+
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    if (obj.activeInHierarchy) // Optional: Only deactivate active ones
+                    {
+                        obj.SetActive(false);
+                    }
+                }
+            }
         }
     }
 }
