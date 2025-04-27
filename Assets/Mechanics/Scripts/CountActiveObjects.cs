@@ -7,9 +7,14 @@ public class CountActiveObjects : MonoBehaviour
     private Dictionary<string, int> activeObjectCounts = new Dictionary<string, int>();
     private Dictionary<string, int> destroyedCounts = new Dictionary<string, int>(); // New: Track how many destroyed
     public int countToDelete = 3;
-
+    public string seedTag = "Seed";
+    private FogController fogController;
+    private bool seedFogReduced = false; // Track if the seed fog reduction has already occurred
+    private bool trashFogReduced = false; // Track if trash fog reduction has already occurred
+    
     void Start()
     {
+        fogController = FindFirstObjectByType<FogController>(); // Find the FogController in the scene
         foreach (string tag in tagsToCount)
         {
             GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
@@ -56,10 +61,42 @@ public class CountActiveObjects : MonoBehaviour
                         obj.SetActive(false);
                     }
                 }
+                
+                if (tag == seedTag && !seedFogReduced)
+                {
+                    if (CheckAllObjectsDeactivated(tag))
+                    {
+                        Debug.Log("All 'seed' objects are deactivated. Reducing fog by half.");
+                        fogController.ReduceFogStrength(50); // Reduce fog strength by 50% for the seed tag
+                        seedFogReduced = true; // Mark seed fog reduction as done
+                    }
+                }
+
+                // Check if all trash-related objects are deactivated
+                else if (tag != seedTag && !trashFogReduced)
+                {
+                    if (CheckAllObjectsDeactivated(tag))
+                    {
+                        Debug.Log("All trash-related objects are deactivated. Reducing remaining fog.");
+                        fogController.ReduceFogStrength(50); // Reduce the remaining fog by 50% for trash objects
+                        trashFogReduced = true; // Mark trash fog reduction as done
+                    }
+                }
+
 
                 // Optional: Reset counter if you want this to happen again later
                 destroyedCounts[tag] = 0;
             }
         }
+    }
+    private bool CheckAllObjectsDeactivated(string tag)
+    {
+        GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
+        foreach (GameObject obj in objectsWithTag)
+        {
+            if (obj.activeInHierarchy) // If any object is still active
+                return false;
+        }
+        return true; // All objects are deactivated
     }
 }
