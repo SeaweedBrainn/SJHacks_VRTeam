@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 4241712}
   m_Layer: 0
   m_Name: Prop_TrashBag_03 (1)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6448,7 +6448,7 @@ GameObject:
   - component: {fileID: 330642229}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (4)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7677,7 +7677,7 @@ GameObject:
   - component: {fileID: 379897590}
   m_Layer: 0
   m_Name: Prop_TrashBag_02 (1)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8228,7 +8228,7 @@ GameObject:
   - component: {fileID: 425030492}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (11)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8741,7 +8741,7 @@ GameObject:
   - component: {fileID: 458730428}
   m_Layer: 0
   m_Name: Prop_TrashBag_03 (4)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13262,7 +13262,7 @@ GameObject:
   - component: {fileID: 719334382}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (6)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15077,7 +15077,7 @@ GameObject:
   - component: {fileID: 851543257}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (10)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16076,7 +16076,7 @@ GameObject:
   - component: {fileID: 892450079}
   m_Layer: 0
   m_Name: Prop_TrashBag_03 (3)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18310,7 +18310,7 @@ GameObject:
   - component: {fileID: 1027381608}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (9)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20830,7 +20830,7 @@ GameObject:
   - component: {fileID: 1227999376}
   m_Layer: 0
   m_Name: Prop_TrashBag_03 (6)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22058,7 +22058,7 @@ GameObject:
   - component: {fileID: 1266993185}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (7)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22771,7 +22771,7 @@ GameObject:
   - component: {fileID: 1301797317}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (3)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23274,7 +23274,7 @@ GameObject:
   - component: {fileID: 1338538656}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (2)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23554,7 +23554,7 @@ GameObject:
   - component: {fileID: 1367909665}
   m_Layer: 0
   m_Name: Prop_TrashBag_03
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26838,7 +26838,7 @@ GameObject:
   - component: {fileID: 1610532088}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (1)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29429,7 +29429,7 @@ GameObject:
   - component: {fileID: 1802492994}
   m_Layer: 0
   m_Name: Prop_TrashBag_03 (8)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30224,7 +30224,7 @@ GameObject:
   - component: {fileID: 1839335900}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (5)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30722,7 +30722,7 @@ GameObject:
   - component: {fileID: 1856244710}
   m_Layer: 0
   m_Name: Prop_TrashBag_02 (2)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31359,7 +31359,7 @@ GameObject:
   - component: {fileID: 1890314081}
   m_Layer: 0
   m_Name: Prop_TrashBag_01
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31828,7 +31828,7 @@ GameObject:
   - component: {fileID: 1897254701}
   m_Layer: 0
   m_Name: Prop_TrashBag_03 (5)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32225,7 +32225,7 @@ GameObject:
   - component: {fileID: 1915896435}
   m_Layer: 0
   m_Name: Prop_TrashBag_02
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32983,7 +32983,7 @@ GameObject:
   - component: {fileID: 1962707436}
   m_Layer: 0
   m_Name: Prop_TrashBag_01 (8)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35535,7 +35535,7 @@ GameObject:
   - component: {fileID: 2068626208}
   m_Layer: 0
   m_Name: Prop_TrashBag_03 (7)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35963,7 +35963,7 @@ GameObject:
   - component: {fileID: 2071905684}
   m_Layer: 0
   m_Name: Prop_TrashBag_03 (2)
-  m_TagString: Untagged
+  m_TagString: TrashBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
