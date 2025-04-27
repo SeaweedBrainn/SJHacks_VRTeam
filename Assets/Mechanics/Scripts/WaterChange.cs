@@ -1,9 +1,8 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class WaterChange : MonoBehaviour
 {
-<<<<<<< Updated upstream
-=======
     private DecalProjector Decal; // Reference to DecalProjector
     private MopItUp MopScript; 
     public float fadeSpeed = 0.5f; // Speed at which the fade occurs
@@ -48,9 +47,8 @@ public class WaterChange : MonoBehaviour
     }
 
     // Triggered when a particle hits the object
->>>>>>> Stashed changes
     void OnParticleCollision(GameObject other)
     {
-        Destroy(gameObject); // Destroy this object
+        beingHit = true; // Mark that particles are hitting the object
     }
 }
