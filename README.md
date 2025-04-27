@@ -26,7 +26,10 @@ Looking ahead, we plan to expand EcoQuest by incorporating more diverse urban en
 ## This is a VR Game
 In order to experience this application in it's fullest, it requires a meta quest headset (2 or 3) with the apk loaded onto it.
 
-Credit to Kyle Nguyen, Hemang Mehra, and Siddhartha ShibiF
+Credit to Kyle Nguyen, Hemang Mehra, and Siddhartha Shibi
+
+Game APK File:
+https://drive.google.com/file/d/1fZZj1jaejiirDBsSRT_mpK80G-mzKSsQ/view?usp=sharing
 
 Pitch Slides:
 https://www.canva.com/design/DAGl1_vHWCQ/wOeENXgXXz-quCI1mH4IrA/edit?utm_content=DAGl1_vHWCQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
