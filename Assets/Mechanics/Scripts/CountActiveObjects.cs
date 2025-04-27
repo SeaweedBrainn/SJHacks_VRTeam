@@ -62,30 +62,7 @@ public class CountActiveObjects : MonoBehaviour
                     }
                 }
                 
-                if (tag == seedTag && !seedFogReduced)
-                {
-                    if (CheckAllObjectsDeactivated(tag))
-                    {
-                        Debug.Log("All 'seed' objects are deactivated. Reducing fog by half.");
-                        fogController.ReduceFogStrength(50); // Reduce fog strength by 50% for the seed tag
-                        seedFogReduced = true; // Mark seed fog reduction as done
-                    }
-                }
-
-                // Check if all trash-related objects are deactivated
-                else if (tag != seedTag && !trashFogReduced)
-                {
-                    if (CheckAllObjectsDeactivated(tag))
-                    {
-                        Debug.Log("All trash-related objects are deactivated. Reducing remaining fog.");
-                        fogController.ReduceFogStrength(50); // Reduce the remaining fog by 50% for trash objects
-                        trashFogReduced = true; // Mark trash fog reduction as done
-                    }
-                }
-
-
-                // Optional: Reset counter if you want this to happen again later
-                destroyedCounts[tag] = 0;
+                CheckFogConditions();
             }
         }
     }
@@ -98,5 +75,37 @@ public class CountActiveObjects : MonoBehaviour
                 return false;
         }
         return true; // All objects are deactivated
+    }
+    
+    private void CheckFogConditions()
+    {
+        if (!seedFogReduced && CheckAllObjectsDeactivated(seedTag))
+        {
+            Debug.Log("All seed objects deactivated. Reducing fog by 50%.");
+            fogController.ReduceFogStrength(50);
+            seedFogReduced = true;
+        }
+
+        if (!trashFogReduced && AllTrashTagsCleared())
+        {
+            Debug.Log("All trash objects deactivated. Clearing remaining fog.");
+            fogController.ReduceFogStrength(50);
+            trashFogReduced = true;
+        }
+    }
+    
+    private bool AllTrashTagsCleared()
+    {
+        foreach (string tag in tagsToCount)
+        {
+            if (tag != seedTag) // Only check non-seed tags
+            {
+                if (!CheckAllObjectsDeactivated(tag))
+                {
+                    return false; // If any trash object is still active, don't clear fog yet
+                }
+            }
+        }
+        return true; // All trash tags cleared
     }
 }
