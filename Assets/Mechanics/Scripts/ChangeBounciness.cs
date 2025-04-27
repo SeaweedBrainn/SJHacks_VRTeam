@@ -30,12 +30,8 @@ public class ChangeBounciness : MonoBehaviour
         // Wait for the specified delay
         yield return new WaitForSeconds(delay);
 
-        // Create a new PhysicMaterial with bounciness set to 0
-        PhysicsMaterial noBounceMaterial = new PhysicsMaterial();
-        noBounceMaterial.bounciness = 0f;
-
         // Apply the new material to the object's collider
-        objectCollider.material = noBounceMaterial;
+        objectCollider.material.bounciness = 0;
 
         Debug.Log("Bounciness changed to 0.");
     }
