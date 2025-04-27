@@ -3641,11 +3641,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db30331ab3474c4bb2d7486aba5b13b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-=======
   fadeSpeed: 0.5
   otherDecal: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!114 &1061021308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17369,8 +17366,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d89b49946506b443e91f261808f62d76, type: 3}
-<<<<<<< Updated upstream
-=======
 --- !u!33 &2988283229854739893
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17623,7 +17618,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> Stashed changes
 --- !u!1001 &5763614294395723682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17750,8 +17744,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 311670ee379bd47cb84b858acd7f4412, type: 3}
-<<<<<<< Updated upstream
-=======
 --- !u!23 &6015794705548351186
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17797,7 +17789,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!1001 &6231463344165658109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18030,8 +18021,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c9e16d4980e495a9887a5e3c64ead3, type: 3}
-<<<<<<< Updated upstream
-=======
 --- !u!65 &7230305038714856951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18320,7 +18309,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300574, guid: 4f42de20473e31640a26152fcbe7d55c, type: 3}
->>>>>>> Stashed changes
 --- !u!1001 &8176962118819917052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18378,8 +18366,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd2acdfd4bdbb4a609a1d04144f4df78, type: 3}
-<<<<<<< Updated upstream
-=======
 --- !u!33 &8401625773344186904
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18388,7 +18374,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5223218001960843015}
   m_Mesh: {fileID: -6350977407479027115, guid: 38ec20e26d1a19541a467880ee7e3310, type: 3}
->>>>>>> Stashed changes
 --- !u!1001 &8730641587315010935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18499,9 +18484,6 @@ SceneRoots:
   - {fileID: 6909981957220264349}
   - {fileID: 8176962118819917052}
   - {fileID: 6820858198534065813}
-<<<<<<< Updated upstream
-=======
   - {fileID: 2222342070032441872}
   - {fileID: 7788972770343777191}
   - {fileID: 136406650}
->>>>>>> Stashed changes
